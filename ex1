@@ -1,0 +1,26 @@
+iteger_var = 10
+float_var = 3.14
+string_var = "hello,world"
+list_var = [1,2,3,4,5]
+tuple_var = (1, "two", 3.0)
+dict_var = {"neme": "Jhon", "age":30}
+set_var = {1,2,3,4,5}
+bool_var = True 
+
+print("integer_var:", integer_var)
+print("float_var:", float_var)
+print("string_var:", string_var)
+print("list_var:", list_var)
+print("tuple_var", tuple_var)
+print("dict_var", dict_var)
+print("set_var", set_var)
+print("bool_var", bool_var)
+
+
+#ex 2
+name = "Marat"
+age = 18
+average_grade = 4,0 
+favorite_movies = ["astral", "lost", "the and"]
+personal_info = ("musaev","№-2","4,0")
+skills = {"ran", "jamp"}
