@@ -1,0 +1,21 @@
+age=int(input())
+if age < 18:
+    print("Вы несовершеннолетний")
+elif age > 18 and age <= 65:
+    print("Вы трудоспособный человек")
+else:
+    print("Вы пенсионер")
+    
+    
+    Задание 2
+    buy = int(iput())
+    if buy < 1000:
+        print("Cкидка не представляется")
+    elif buy > 1000 and buy <=5000:
+        
+        print("Скидка 5%")
+    else:
+        print("Скидка 10%")
+        
+        
+        
