@@ -30,3 +30,21 @@
                 #     p = (a + b + c) / 2
                 #     g=(p*(p-a)*(p-b)*(p-c))**0.5
                 #     print(f"площадь вашей комнаты = {g}")
+                #ex 5
+                # n = int(input())
+                # if n % 10 == 1 and n % 100 != 11:
+                #     print(f"{n} программист")
+                # elif 2 <= n % 10 <= 4 and not (12 <= n % 100 <= 14):
+                #     print(f"{n} программиста")
+                # else:
+                #     print(f"{n} программистов")
+                # 
+                #ex 6
+                # ticket_number = input()
+                # if len(ticket_number) == 6:
+                #     left_sum = sum(int(ticket_number[i]) for i in range(3))
+                #     right_sum = sum(int(ticket_number[i]) for i in range(3, 6))
+                #     if left_sum == right_sum:
+                #         print("cчастливый")
+                #     else:
+                #         print("oбычный")
